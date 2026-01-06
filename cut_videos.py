@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-input_folder = "recut"
+input_folder = input(r"recut: ")
 output_folder = "cut"
 
 os.makedirs(output_folder, exist_ok=True)
